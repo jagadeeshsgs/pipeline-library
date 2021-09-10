@@ -3,7 +3,7 @@ import politie.jenkins.*
 
 def builder = new JenkinsPipelineBootstrap().createBuilder()
 
-String serviceName = 'my-service'
+String serviceName = 'JenkinsPipeline'
 String gitBranch = 'master'
 
 builder.mavenApplicationPipeline(serviceName, gitBranch)   
